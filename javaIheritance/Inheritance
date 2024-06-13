@@ -1,0 +1,23 @@
+How to implement inheritance in JAVA?
+
+
+By using extends and implements keywords
+
+1. Normal Class/Concrete Class(NC)
+2. Abstract Class(AC)
+3. Interface Class(IC)
+
+
+super/parent/base class		    keyword			sub/child/derived class
+		
+	Normal class				extends 			  Normal Class
+	Abstract class				extends 			  Normal Class
+	Interface class			   implements 			  Normal Class
+	
+	Normal class				extends 			  Abstract class
+	Abstract class				extends 			  Abstract class
+	Interface class			   implements 			  Abstract class
+	
+	Normal class				  NO 			      Interface class	
+	Abstract class				  NO			      Interface class	
+	Interface class			   extends 			  	  Interface class	
